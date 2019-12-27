@@ -1,6 +1,6 @@
 'use strict';
 
-const stepScale = (min, max, numberOfSteps) => {
+const stepScaler = (min, max, numberOfSteps) => {
   const _numberOfSteps = numberOfSteps - 1;
   const scaleBy = (max - min) / _numberOfSteps;
 
@@ -11,4 +11,4 @@ const stepScale = (min, max, numberOfSteps) => {
   return arr
 };
 
-module.exports = stepScale;
+module.exports = stepScaler;
